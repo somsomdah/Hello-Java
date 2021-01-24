@@ -2,12 +2,13 @@
 
 ## 자바 : 클래스의 이해와 객체지향 프로그래밍
 <details>
- <summary> 내용 보기</summary>
+ <summary> 자바 : 클래스의 이해와 객체지향 프로그래밍</summary>
  <div markdown="1">
    
    <details>
      <summary> 클래스의 이해와 기초</summary>
      <div markdown="1">
+      
 # 클래스의 이해와 기초
 ### 01. 클래스의 개념
 ### 02. 패키지의 개념
@@ -21,6 +22,7 @@
 <details>
    <summary> 상속과 활용</summary>
    <div markdown="1">
+    
 # 상속과 활용
 ### 07. 상속
 ### 08. 오버라이딩
@@ -34,6 +36,7 @@
 <details>
    <summary> 클래스 활용</summary>
    <div markdown="1">
+    
 # 클래스 활용
 ### 14. 은닉화
 ### 15. 객체 확인
