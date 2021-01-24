@@ -7,7 +7,7 @@
    
    <details>
      <summary> 클래스의 이해와 기초</summary>
-     <div markdown="2">
+     <div>
       
 # 클래스의 이해와 기초
 ### 01. 클래스의 개념
