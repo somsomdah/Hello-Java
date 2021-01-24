@@ -115,6 +115,15 @@ __오버라이딩 vs 오버로딩__
    - 어떤 객체에서도 같은 동작을 하는 메서드는 static을 붙여주는 것이 좋다 : 한 번만 생성되기 때문
    - static 메서드는 오버라이딩 할 수 없다
    - static 메서드에서 동일한 객체 내의 멤버(필드, 메서드)를 이용하기 위해서는 맴버에게 static을 붙여야만 한다.
+- `System.out.println`
+   -`java.lang.System.out.println()` : 컴파일러가 `import java.lang.*`을 삽입해 주므로 `java.lang` 생략 가능
+   - `out`은 클래스 `System`을 통해 접근하므로 `System`클래스의 클래스 변수명임을 유추 가능
+   - `println()`은 `out`이 참조하는 인스턴스의 메소드
+- `public static void main(String[] args){...}`
+   - static인 이유 : 인스턴스 생성과 관계없이 제일 먼저 호출되는 메서드
+   - public인 이유 : main메소드의 호출 명령은 외부로부터 시작되는 명령
+   - main 메소드는 유일해야 한다.
+   - 클래스 MyTest에 대하여 JVM은 MyTest.main()을 호출한다.
 
 ### 10. 추상클래스
 
