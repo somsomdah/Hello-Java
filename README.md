@@ -1,10 +1,6 @@
 # Hello-Java
 
 ## 자바 : 클래스의 이해와 객체지향 프로그래밍
-<details>
- <summary> 자바 : 클래스의 이해와 객체지향 프로그래밍</summary>
- <div markdown="1">
-   
    <details>
      <summary> 클래스의 이해와 기초</summary>
      <div>
@@ -21,7 +17,7 @@
   
 <details>
    <summary> 상속과 활용</summary>
-   <div markdown="2">
+   <div>
     
 # 상속과 활용
 ### 07. 상속
@@ -35,7 +31,7 @@
 
 <details>
    <summary> 클래스 활용</summary>
-   <div markdown="2">
+   <div>
     
 # 클래스 활용
 ### 14. 은닉화
@@ -43,8 +39,5 @@
 ### 16. Class 클래스
 ### 17. 절차지향 및 객체지향
    </div>
-</details>
-
- </div>
 </details>
 
