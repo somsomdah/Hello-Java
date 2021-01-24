@@ -7,7 +7,7 @@
    
    <details>
      <summary> 클래스의 이해와 기초</summary>
-     <div markdown="1">
+     <div markdown="2">
       
 # 클래스의 이해와 기초
 ### 01. 클래스의 개념
@@ -21,7 +21,7 @@
   
 <details>
    <summary> 상속과 활용</summary>
-   <div markdown="1">
+   <div markdown="2">
     
 # 상속과 활용
 ### 07. 상속
@@ -35,7 +35,7 @@
 
 <details>
    <summary> 클래스 활용</summary>
-   <div markdown="1">
+   <div markdown="2">
     
 # 클래스 활용
 ### 14. 은닉화
