@@ -18,18 +18,18 @@
 - 자바 가상머신(JVM)은 운영체제 위에서 동작한다
 - JVM은 운영체제로부터 할당받은 메모리 공간을 이용해서 자기 자신도 실행을 하고, 자바 프로그램도 실행을 한다.
 - JVM의 메모리 모델 : 메소드 영역 / 스택 영역 / 힙 영역
-   - Method Area
+   - __Method Area__
       - Method bite code, Static variable
       - Bitecode : JVM에 의해 실행되는 코드, 고급언어 -(컴파일)-> 바이트코드 -(JVM)-> 기계어
       - 이 영역에 저장된 내용은 프로그램 시작 전에 로드되고 프로그램 종료시 소멸된다.
-   - Stack Area
+   - __Stack Area__
       - Local variable, Parameter
       - 프로그램이 실행되는 도중에 임시로 할당되었다가 해당 변수가 선언된 매소드 종료시 소멸
       - 스택의 흐름
          - 지역변수는 스택에 할당된다
          - 스택에 할당된 지역변수는 해당 메서드를 빠져 나가면 소멸된다
          - 할당 및 소멸의 특성상 메서드 별 스택이 구분이 된다  
-   - Heap Area
+   - __Heap Area__
       - Instance(Object)
       - 객체가 생성되는 메모리 공간
       - JVM에 의한 메모리 공간의 정리(Garbage Collection)가 이루어지는 공간
@@ -87,10 +87,9 @@
 - 기능의 변경, 기능의 추가
 - 오버라이드는 추상클래스와 합쳐져서 객체지향 방법론에서 장점으로 많이 거론되는 확장성을 실현하는데 많은 도움을 줌
 - `@override` : http://www.gisdeveloper.co.kr/?p=1265  
-  
-__오버라이딩 vs 오버로딩__
-- 오버라이딩 : 상속 관계에서 발생, 하위클래스에서 상위클래서의 메서드를 재정의하는 것
-- 오버로딩 : 한 클래스 내에서 동일한 이름의 매서드가 여러개 존재할 때
+- __오버라이딩 vs 오버로딩__
+   - 오버라이딩 : 상속 관계에서 발생, 하위클래스에서 상위클래서의 메서드를 재정의하는 것
+   - 오버로딩 : 한 클래스 내에서 동일한 이름의 매서드가 여러개 존재할 때
 
 ### 09. 스태틱
 - 필드와 메서드에 붙이는 제한자
@@ -111,15 +110,15 @@ __오버라이딩 vs 오버로딩__
       a2.a=10
       // a의 값은 10
    ```
-- static을 붙인 메서드
+- __static을 붙인 메서드__
    - 어떤 객체에서도 같은 동작을 하는 메서드는 static을 붙여주는 것이 좋다 : 한 번만 생성되기 때문
    - static 메서드는 오버라이딩 할 수 없다
    - static 메서드에서 동일한 객체 내의 멤버(필드, 메서드)를 이용하기 위해서는 맴버에게 static을 붙여야만 한다.
-- `System.out.println`
-   -`java.lang.System.out.println()` : 컴파일러가 `import java.lang.*`을 삽입해 주므로 `java.lang` 생략 가능
+- __`System.out.println`__
+   - `java.lang.System.out.println()` : 컴파일러가 `import java.lang.*`을 삽입해 주므로 `java.lang` 생략 가능
    - `out`은 클래스 `System`을 통해 접근하므로 `System`클래스의 클래스 변수명임을 유추 가능
    - `println()`은 `out`이 참조하는 인스턴스의 메소드
-- `public static void main(String[] args){...}`
+- __`public static void main(String[] args){...}`__
    - static인 이유 : 인스턴스 생성과 관계없이 제일 먼저 호출되는 메서드
    - public인 이유 : main메소드의 호출 명령은 외부로부터 시작되는 명령
    - main 메소드는 유일해야 한다.
