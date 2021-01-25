@@ -38,7 +38,7 @@
       
             String str=new String("My String")
             str=null // 인스턴스가 사라지는 것이 아닌 참조 관계가 소멸 
-            // -> 참조관계가 소멸된 인스턴스는 garbage collection의 다생이 된다
+            // -> 참조관계가 소멸된 인스턴스는 garbage collection의 대상이 된다
 
       - 따라서 JVM은 인서턴스의 참조관계를 확인하고 소멸할 대상을 선택한다
       - Garbage Collection
@@ -124,6 +124,7 @@
    - 클래스 MyTest에 대하여 JVM은 MyTest.main()을 호출한다.
 
 ### 10. 추상클래스
+#### 1) 추상 메서드
 
 ### 11. 인터페이스
 
