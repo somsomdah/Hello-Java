@@ -36,11 +36,10 @@
       - 할당은 프로그래머가, 소멸은 JVM이 처리
       - 참조변수에 의한 참조가 전혀 이루어지지 않은 인스턴스가 소멸의 대상이 된다
       
-            ```java
             String str=new String("My String")
             str=null // 인스턴스가 사라지는 것이 아닌 참조 관계가 소멸 
             // -> 참조관계가 소멸된 인스턴스는 garbage collection의 다생이 된다
-            ```
+
       - 따라서 JVM은 인서턴스의 참조관계를 확인하고 소멸할 대상을 선택한다
       - Garbage Collection
          - GC는 한번도 발생하지 않을 수 있다
