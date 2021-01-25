@@ -191,6 +191,11 @@
   
 ### 13. 클래스 캐스팅 예외
 
+   #### 다형성을 이용한 클래스간의 형변환
+   - `Super a=new Sub()`, `Sub b=(Sub)a`
+   - nuw Sub()에 의해 Sub 객체가 생성되고(Heap영역에 저장됨) Super 타입의 a(Stack 영역)가 가리킴
+   - Sub 타입의 변수 b가 a가 가리키는 곳을 가리킴
+
 
    </div>
 </details>
